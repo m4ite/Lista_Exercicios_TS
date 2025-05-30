@@ -257,7 +257,7 @@ export function ex12() {
   //lê os valores inseridos pelo usuário
   const nome = readlineSync.question("Digite o nome do aluno: ");
   const idade = parseInt(readlineSync.question("Digite a idade do aluno: "));
-  const matricula = readlineSync.question("Digite a matrícula do aluno: ");
+  const matricula = readlineSync.question("Digite a matricula do aluno: ");
 
   if (!nome || isNaN(idade) || idade < 0 || !matricula) {
     // verifica os dados
